@@ -1,0 +1,47 @@
+body {
+    background-color: blanchedalmond;
+}
+h1{
+    text-align: center;
+    padding: 10px;
+}
+
+/* BOTON ELIMINAR CARRITO */
+.eliminar {
+padding: 20px;
+}
+
+.btEliminar {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    border-radius: 10px;
+    gap: 100px;
+}
+.btEliminar:hover {
+    width: 210px;
+    height: 60px;
+    transition: 0.5s;
+}
+
+/* PRODUCTOS */
+.contenedorTarjetas {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+}
+.tarjetas {
+    background-color: antiquewhite;
+    border: 3px solid #b48989;
+    width: 350px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
